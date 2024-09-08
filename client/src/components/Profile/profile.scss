@@ -1,0 +1,67 @@
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropzone.active {
+  border-color: #007bff;
+}
+
+.dropzone.accept {
+  border-color: #28a745;
+}
+
+.dropzone.reject {
+  border-color: #dc3545;
+}
+
+.preview-container {
+  margin-top: 20px;
+}
+
+.preview-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.preview-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-actions button {
+  margin: 0 10px;
+}
+
+img {
+  max-width: 30em;
+  max-height: 30em;
+}
+
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; /* Add some bottom margin to create space for the delete icon */
+}
+
+.delete-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: red;
+  font-size: 3em;
+  opacity: 1;
+}
+

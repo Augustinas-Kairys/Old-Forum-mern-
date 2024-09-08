@@ -1,0 +1,90 @@
+nav {
+    background-color: black;
+    height: 4em;
+    font-family: "Lucida Console", Courier, monospace;
+    section {
+      overflow-x: hidden;
+    }
+  
+    img {
+      height: 3em;
+    }
+  
+    a {
+      font-size: 0.8em !important;
+    }
+    button {
+      font-size: 0.8em !important;
+    }
+  
+    .nav-link:hover {
+      color: #4df0a4 !important;
+      font-weight: 700;
+      margin-left: 0.1em;
+      border-bottom: 1px solid #4df0a4;
+      padding-bottom: 0.5em;
+    }
+  
+    .dropdown-menu {
+      background-color: black;
+    }
+  
+    .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+  
+.footer {
+    background-image:linear-gradient(360deg, rgb(0,0,0,0.5), hsla(0, 0%, 5%, 0) 100%, black 0), url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 4em;
+    width: 100%;
+    height: 100%;
+    margin-top: 0em;
+    p {
+        color: gray !important;
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+  }
+
+
+// Form control  
+
+.form-control {
+  background-color: transparent !important; 
+  border: none; 
+  box-shadow: none;
+  color: white; 
+  outline: none;
+}
+
+.form-control:focus {
+  background-color: transparent; 
+  border-color: #4DF0A4;
+  box-shadow: 0 0 0 0.15rem rgba(77, 240, 164, 0.15); 
+}
+
+.form-floating {
+  color: #4DF0A4 !important; 
+}
+
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply animation to notification */
+.notification {
+  animation: slideInLeft 0.5s ease;
+}

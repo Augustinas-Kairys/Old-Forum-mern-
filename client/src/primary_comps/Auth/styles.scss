@@ -1,0 +1,42 @@
+.login {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: black;
+    .card {
+        background-color: black;
+        border-radius: 1rem; 
+        border-color: white;
+    }
+    img {
+        border-radius: 2rem 0 0 2rem; 
+        border-color: rgb(77, 77, 77) !important;
+    }
+    a {
+        color: #4DF0A4 !important;
+        font-weight: 900;
+        border-color: #4DF0A4 !important;
+        background-color: transparent !important;
+    }
+    button {
+        color: #4DF0A4 !important;
+        font-weight: 900;
+        border-color: #4DF0A4 !important;
+        background-color: transparent !important;
+    }
+}
+.gif {
+    height: 100em;
+    width: 100%;
+}
+.loginhover::placeholder {
+    color: #4DF0A4;
+    background-color: transparent !important;
+}
+
+.loginhover:not(:placeholder-shown) {
+    color: #4DF0A4;
+    background-color: transparent !important;
+}
+
+.loginhover:hover {
+    border-color: #4DF0A4 !important;
+}

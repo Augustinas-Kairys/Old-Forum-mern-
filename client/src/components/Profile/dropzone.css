@@ -1,0 +1,27 @@
+.dropzone {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Styles for Dropzone when files are uploaded */
+.dropzone.uploaded {
+  background-color: #f9f9f9;
+}
+
+/* Additional styles for success and error marks */
+.dz-success-mark,
+.dz-error-mark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 255, 0, 0.1);
+  margin: 0 5px;
+}

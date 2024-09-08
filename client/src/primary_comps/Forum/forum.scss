@@ -1,0 +1,128 @@
+.background {
+    position: relative;
+}
+
+  
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh; 
+    background-color: red; 
+    padding-bottom: 20px;
+    overflow: hidden;
+    filter: blur(5px); 
+}
+  
+.container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+
+.anothercontainer {
+    position: relative;
+  }
+  
+  .anothercontainer::before {
+    content: '';
+    position: absolute;
+    top: -1.5em;
+    left: -0.3em;
+    width: 101%; 
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.514); 
+    z-index: -1;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+
+  }
+
+.forum {
+    margin-left: 0.5em;
+    font-weight: bold;
+    color: #4DF0A4;
+}
+
+.creating {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 13em;
+    padding: 0 2em;
+    height: 3em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    font-weight: 600;
+  }
+  
+
+  .creating:hover {
+    background: linear-gradient(130deg, #4DF0A4 5%, transparent 100%);
+  }
+
+
+.another {
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+
+hr {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.logonear {
+    max-width: 3em; 
+    height: auto; 
+}
+.clickable-text {
+    color: white;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+
+
+
+.anothercontainer3 {
+    background-color: rgba(0, 0, 0, 0.514); 
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.anothercontainer4 {
+    background-color: rgba(0, 0, 0, 0.911); 
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+.icon2 {
+    font-weight: 900;
+    color: red;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+.image-profile {
+    width: 3em; 
+    height: 3em; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.image-profile2 {
+    width: 10em; 
+    height: 10em; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.small {
+    font-size: 0.7em;
+    color: #4df0a496 !important;
+}
